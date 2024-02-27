@@ -19,7 +19,7 @@ module.exports = {
           iconURL: 'https://cdn.discordapp.com/attachments/1211643355289755699/1211743470360989786/Pr_199_E7C8162.gif?ex=65ef4f0c&is=65dcda0c&hm=4581c0fb127515aafef6396268cf41fe493dee0f26617e9ca7cb585eecf6f583&',
           url: 'xx'
         })
-            .setDescription(`__**About me**__:\n\n ▶️ Myself Hann . I am a discord bot developer and web developer. I love playing games, watching anime and building different webserver applications. You will get faster replies on instagram than other social media. Feel free to contact me!\n Instagram : 💙 [rtxxgg](${InstagramLink})`)
+            .setDescription(`__**About me**__:\n\n ▶️ Myself Hann . I am a discord bot developer and web developer. I love playing games, watching anime and building different webserver applications. You will get faster replies on instagram than other social media. Feel free to contact me!\n Instagram : 💙 [Hann](${InstagramLink})`)
             .setTimestamp();
       interaction.reply({ embeds: [embed] }).catch(e => {});
 
