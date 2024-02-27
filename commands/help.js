@@ -44,22 +44,12 @@ module.exports = {
         ) 
        .setImage('https://cdn.discordapp.com/attachments/1211643355289755699/1211743470360989786/Pr_199_E7C8162.gif?ex=65ef4f0c&is=65dcda0c&hm=4581c0fb127515aafef6396268cf41fe493dee0f26617e9ca7cb585eecf6f583&')
       const button1 = new ButtonBuilder()
-        .setLabel('YouTube')
-        .setURL('xx')
-        .setStyle(ButtonStyle.Link);
-
-      const button2 = new ButtonBuilder()
-        .setLabel('Discord')
-        .setURL('xx')
-        .setStyle(ButtonStyle.Link);
-
-      const button3 = new ButtonBuilder()
-        .setLabel('Code')
-        .setURL('xx')
+        .setLabel('instagram')
+        .setURL('https://www.instagram.com/hann19_8/')
         .setStyle(ButtonStyle.Link);
 
       const row = new ActionRowBuilder()
-        .addComponents(button1, button2, button3);
+        .addComponents(button1);
 
       interaction.reply({
         embeds: [musicCommandsEmbed, basicCommandsEmbed],
